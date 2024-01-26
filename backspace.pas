@@ -1,4 +1,4 @@
-// Shortcut: BkSp must replace BkSp of IDE
+// Shortcut: BkSp - must replace BkSp of IDE
 var
    current, previous,next: TPoint;
  begin
