@@ -1,20 +1,21 @@
+//Shortcut: '
 var
-   atual, anterior,posterior: TPoint;
+   current, previous,next: TPoint;
  begin
-   atual := caller.LogicalCaretXY;
+   current := caller.LogicalCaretXY;
 
-   anterior := atual;
-   posterior:=atual;
+   previous := current;
+   next:=current;
 
-   anterior.x := anterior.x -1;
-   posterior.x := posterior.x +1;
+   previous.x := previous.x -1;
+   next.x := next.x +1;
 
     if caller.SelAvail then begin
      caller.SelText := ''''+caller.SelText+'''';
    end
    else
    begin
-      if (caller.TextBetweenPoints[anterior, atual]='''') or (caller.TextBetweenPoints[atual, posterior]='''') then
+      if (caller.TextBetweenPoints[previous, current]='''') or (caller.TextBetweenPoints[current, next]='''') then
       begin
         ecChar('''');
       end
