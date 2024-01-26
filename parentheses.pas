@@ -1,3 +1,4 @@
+//Shortcut: Shift+9
 var
    current, previous,next: TPoint;
  begin
