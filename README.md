@@ -1,3 +1,4 @@
-# lazarus_ide_editor_macros
-Miscellaneous lazarus-ide editor macros
+# Lazarus IDE Editor Macros
+
+Miscellaneous Lazarus IDE Editor Macros
 Contributions are welcome, submit a pull request
