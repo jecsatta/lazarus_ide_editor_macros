@@ -1,4 +1,4 @@
-//Shortcut Shift + 9
+//Shortcut Shift + =
 begin
      caller.InsertTextAtCaret('''+',scamEnd);
      eclinebreak;
