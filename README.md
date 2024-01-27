@@ -25,7 +25,7 @@ In 'Available for Installation' list choose these packages
 Lazarus IDE > View > Editor Macros 
  1. Click in 'Record', press one key and stop macro.
  1. Move the recorded macro to IDE or Project.
- 1. Click in 'Edit', replace the code of macro script for .pas in repository and save.
+ 1. Click in 'Edit', replace the code of macro script for the content of .pas file in repository and save.
  1. Click 'Edit Key' to choose the shortcut.
 </details>
 
